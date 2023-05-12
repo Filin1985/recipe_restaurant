@@ -575,7 +575,7 @@ const timeout = function(s) {
 ///////////////////////////////////////
 const renderSpinner = function(parentEl) {
     const markup = `
-    <div class="spinner">
+    <div class="spinner"open_meter
       <svg>
         <use href="${(0, _iconsSvgDefault.default)}#icon-loader"></use>
       </svg>
